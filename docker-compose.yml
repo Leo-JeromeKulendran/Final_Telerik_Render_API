@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  final_telerik_render_api:
+    image: ${DOCKER_REGISTRY-}finaltelerikrenderapi
+    build:
+      context: .
+      dockerfile: Final_Telerik_Render_API\Dockerfile

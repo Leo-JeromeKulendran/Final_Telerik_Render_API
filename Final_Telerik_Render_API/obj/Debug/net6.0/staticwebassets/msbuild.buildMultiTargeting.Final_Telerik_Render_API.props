@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Final_Telerik_Render_API.props" />
+</Project>
